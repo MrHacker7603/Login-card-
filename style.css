@@ -1,0 +1,167 @@
+@media (prefers-color-scheme:dark){
+  body{
+    background-color:black;
+    color:white;
+  }
+}
+@media (prefers-color-scheme:white){
+  body{
+    background-color:white;
+    color:black;
+  }
+}
+@font-face{
+font-family:myfont;
+  src:url(Fonts/SamsungOne-700.ttf)
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Noto+Sans+Mono:wght@100..900&family=Pacifico&family=Signika:wght@300..700&display=swap');
+
+body{
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+  background: black 100% 100%;
+    font-size: 15pt;
+}
+
+
+*{
+color:white;
+}
+
+h1{
+  z-index:-1;
+  font-size:40px;
+  font-family: sans-serif;
+  font-weight: 900;
+  background:linear-gradient(80deg, blue,red,mistyrose,yellow);
+  background-clip: text;
+  color: transparent ;
+  margin-left:5%;
+  box-sizing:border-box;
+}
+
+.icons{
+  text-decoration:none;
+  z-index:2;
+  margin: 0px;
+  position:relative;
+  top:-14px;
+  left:20px;
+  height:5%;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 2px;
+  border:none;
+  box-sizing: border-box;
+}
+ 
+
+.container{
+
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 10px;
+  margin-right:20px;
+  margin-left: 30px;
+  margin-top:50px;
+ height:360px; 
+ width: 280px;
+ background: #242424;
+box-shadow: 7px 7px  blue, 13px 13px red, 10px 10px green;
+ animation: 3s ease-in-out 1s;
+}
+form{
+  height:700px ;
+  width: 100%;
+}
+.input_box:focus-within{
+  outline:1px solid yellowgreen;
+}
+
+.input_box{
+  outline: none;
+  box-sizing: border-box;
+  font-weight: 700;
+  height: 12%;
+  width: 95%;
+  border:none;
+  border-radius: 30px;
+  margin-right:5px;
+  margin-left: 5px;
+  margin-bottom: 7px;
+  padding-left:18px;
+  position:relative;
+  top:5%;
+  background-color:#323232;
+  font-size:16px;
+  
+}
+
+.input_reset{
+  background: transparent;
+   text-decoration: none;
+  font-size:80%;
+  position:relative;
+  top:16px;
+  left:10px;
+  height: 20px;
+  width: 45px;
+  color:#ffc938;
+  border:none;
+  box-sizing: border-box;
+  border:none;
+}
+
+.forget_button{
+  text-decoration: none;
+  font-size:60%;
+  position:relative;
+  top:16px;
+  left:100.3px;
+  height: 20px;
+  width: 40%;
+  color:#ffc938;
+}
+
+
+
+
+.login_button{
+  
+  display: flex;
+  justify-content: center;
+  align-self: center;
+height: 12%;
+  width: 45%;
+  border:none;
+  border-radius: 30px;
+  margin-top:7p;
+  margin-right:5px;
+  margin-left: 5px;
+  margin-bottom: 7px;
+  padding:5px;
+  box-sizing: border-box;
+  position: relative;
+  top:16%;
+  left:25%;
+  text-decoration: none;
+background:linear-gradient(-45deg,#8537D8, #5638CE ,#1699CD);
+font-weight: 700;
+font-size: 22px;
+font-family: "lemon", cursive;
+
+}
+.login_button:active{
+  color: #b3b3b3;
+  outline:1.5px solid greenyellow;
+}
